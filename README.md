@@ -1,2 +1,2 @@
 # usability-test-recording
-Remote usability testing and recording of test
+Remote and on-premises usability testing and recording of test
