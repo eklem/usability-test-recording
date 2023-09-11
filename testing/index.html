@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <title>PouchDB testing</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com/?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pouchdb@8.0.1/dist/pouchdb.min.js"></script>
+  </head>
+  <body class="bg-slate-200">
+    <div class="bg-slate-600 text-rose-50 p-3">
+      <h1 class="text-3xl font-thin">PouchDB testing</h1>
+    </div>
+    <div class="p-3">
+      <div id="queryContainer" class="mb-5">
+        <h2 class="text-2xl font-light">H2.1</h2>
+      </div>
+      <div id="regexSelector" class="mb-5">
+        <h2 class="text-2xl font-light">H2.2</h2>
+        <div class="text-xl font-light">
+          Some text
+        </div>
+      </div>
+      <div id="results">
+        <h2 class="text-2xl font-light">H2.3</h2>
+        <div id="wnn" class="rounded text-xl w-full border-2 bg-slate-300 border-slate-300 p-3"></div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
